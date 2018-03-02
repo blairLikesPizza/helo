@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
+
+.login-root{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(99deg, #FF70A6, #FF9770 40%, #FFD670 73%, #E9FF70);
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box{
+    display: flex;
+    height: 400px;
+    width: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(97deg, #F19382, #F9D17E);
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.4), 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.winky-face{
+    height: 115px;
+    width: 120px;
+    margin-bottom: 3px;
+}
+
+.login-title{
+    font-size: 100px;
+}
+
+.login-box button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 350px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background: #403E3A;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    text-decoration: underline #403E3A;
+}

@@ -1,0 +1,201 @@
+.dashboard-root{
+    background: #F2F2F2;
+    width: 100%;
+    height: 100vh;
+}
+
+.top-container-dashboard{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.welcome-tile{
+    width: 500px;
+    height: 150px;
+    background: white;
+    margin-left: 10px;
+    margin-top: 25px;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.welcome-tile p {
+    margin: 20px;
+    line-height: 23px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.recommended-friend-container{
+    width: 841px;
+}
+
+.edit-profile-tile{
+    display: flex;
+    justify-content: space-around;
+    width: 321px;
+    height: 150px;
+    background: white;
+    margin-right: 10px;
+    margin-top: 25px;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.edit-profile-tile img {
+    height: 123px;
+    width: 123px;
+    border: 3px solid #FF9770;
+    margin-left: 7px;
+    margin-top: 10px;
+}
+
+.edit-profile-button{
+    height: 35px;
+    width: 150px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    border-radius: 1px;
+    background: radial-gradient(circle at 50% 0, #FFFFFF, #F1ECEB);
+    border: solid 1px #CCC3C3;
+    margin-bottom: 10px;
+    margin-left: 13px;
+}
+
+.profile-image-dash{
+    height: 150px;
+    width: 150px;
+}
+
+.profile-firstname-dash{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-left: 13px;
+}
+
+.profile-lastname-dash{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 10px;
+    margin-left: 13px;
+}
+
+.user-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 150px;
+    width: 171px;
+}
+
+.recommended-friends-root {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.recommended-friends-container {
+    display: flex;
+    flex-direction: column;
+    width: 841px;
+    height: 570px;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+}
+
+.recommended-friends {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+
+.top-friends-banner {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -20px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.sorted-by-menu {
+    display: flex;
+    width: 240px;
+    flex-direction: row;
+    align-items: center;
+    margin-right: -10px;
+}
+
+.sorted-by {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.sorted-by-menu select{
+    height: 30px;
+    width: 130px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.recommended-friend-tile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 390px;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.recommended-friend-tile img{
+    height: 100px;
+}
+
+.recommended-friend-tile button{
+    height: 35px;
+    width: 100px;
+    color: white;
+    border: none;
+    border-radius: 1px;
+    background: radial-gradient(circle at 50%-46%, #FF9770, #FF7A6E);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+}
+
+.rec-friend-name {
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    margin-right: 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.recommended-friend-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow: scroll;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+

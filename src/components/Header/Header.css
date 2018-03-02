@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+.header-root {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(97deg, #FF7A6E, #FF9770);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1), 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.header-logo-container{
+    display: flex;
+    width: 200px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-content-container{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.helo-word{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.home-img{
+    height: 28px;
+    margin-left: 20px;
+}
+
+.search-img{
+    height: 28px;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+.dashboard-word{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-right: 150px;
+}
+
+.logout-header p{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-decoration: underline #FF9770;
+    font-size: 17px;
+    background: #FF9770;
+    border: none;
+}

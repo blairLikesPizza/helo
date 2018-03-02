@@ -1,0 +1,112 @@
+ .search-root {
+    width: 100%;
+    min-height: 100vh; 
+    background: #F2F2F2;
+}
+
+.search-top-container {
+    display: flex;
+    justify-content: center;
+}
+
+.search-friends-container {
+    display: flex;
+    flex-direction: column;
+    width: 841px;
+    /* height: 570px; */
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+    margin-bottom: 55px;
+}
+
+.search-bar-banner {
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.search-button {
+    height: 35px;
+    width: 120px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 1px;
+    background: radial-gradient(circle at 50%-46%, #737373, #403D39);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.reset-button {
+    height: 35px;
+    width: 120px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    border-radius: 1px;
+    background: radial-gradient(circle at 50% 0, #FFFFFF, #F1ECEB);
+    border: solid 1px #CCC3C3;
+}
+
+.search-bar-banner select {
+    height: 32px;
+    width: 130px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+} 
+
+.search-bar-input {
+    width: 200px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.search-friend-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.search-friend-tile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    width: 390px;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.search-friend-tile img{
+    height: 120px;
+}
+
+.search-friend-name {
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    margin-right: 50px;
+    margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.search-friend-tile button{
+    height: 35px;
+    width: 140px;
+    color: white;
+    border: none;
+    border-radius: 1px;
+    background: radial-gradient(circle at 50%-46%, #FF9770, #FF7A6E);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+}
